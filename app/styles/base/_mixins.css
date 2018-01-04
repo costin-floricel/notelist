@@ -1,0 +1,26 @@
+@define-mixin Phone {
+	@media (min-width: 480px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin Tablet {
+	@media (min-width: 760px){
+		@mixin-content;
+	}
+}
+
+@define-mixin Desktop {
+	@media (min-width: 1200px){
+		@mixin-content;
+	}
+}
+
+@define-mixin clearfix {
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+}

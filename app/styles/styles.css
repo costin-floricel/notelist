@@ -1,7 +1,11 @@
-body {
-	padding:   10px;
-	columns: 300px 2;
-}
-
+@import 'normalize.css';
+@import 'base/_global';
+@import 'base/_mixins';
+@import 'modules/_banner';
+@import 'modules/_btn';
+@import 'modules/_wrapper';
+@import 'modules/_page-section';
+@import 'modules/_row.css';
+@import 'modules/_section-title';
 
 

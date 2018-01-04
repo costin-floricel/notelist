@@ -1,0 +1,13 @@
+.section-title {
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-align: center;
+
+	@mixin Phone {
+	font-size: 2.75rem;	
+	}
+
+	strong {
+		font-weight: 500;
+	}
+}
