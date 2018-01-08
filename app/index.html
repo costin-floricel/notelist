@@ -67,24 +67,21 @@
      <div class="row row--gutters">
       <div class="row__6">
         <h3>Add a new Note</h3>
-        <form class="forms">
-          <label for="yourNote">Add Your Note</label>
-          <br>
-          <textarea id="yourNote" placeholder="Add your note in this box"></textarea>
-          <br>
-          <input type="submit" value="Add Note" class="btn btn--submit">
-        </form>
+        <div class="forms">
+            <label for="new-note">Add a New Note below</label>
+            <input id="new-note" type="text" class="forms__input">
+            <button class="btn btn--submit">Add</button>
+          </div>
       </div>
     <div class="row__6">
-        <h3>Your saved notes</h3>
-        <ul>
-          <li>Do not forget to hand in the project</li>
-          <li>Pick up the car from the Garage</li>
-          <li>Smile every day</li>
-          <li>Happiness is all around us</li>
-          <li>Always read a good book</li>
-        </ul>
-          
+
+
+         <h3>Your Saved Notes</h3>
+         <div class="forms">
+            <ul id="saved-notes">
+            
+           </ul>   
+           </div>       
       </div>
     </div>
   </div>   
@@ -93,5 +90,6 @@
   <footer class="site-footer">
     <p>Copyright &copy; 2018 Costin Floricel. All rights reserved. 
   </footer>
+  <script src="scripts/note.js"></script>
 </body>
 </html>

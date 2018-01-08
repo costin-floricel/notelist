@@ -1,9 +1,16 @@
 .forms {
 	input[type='submit'],
+	
 	input[type='text'],
 	input[type='password'] {
 		width: 100%;
 		display: block;
 		margin-top: 5px;
+		
+	}	
+   
+	input[type='button'] {
+		background-color: $primaryColor; 
 	}
 }
+

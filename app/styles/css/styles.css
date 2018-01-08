@@ -466,6 +466,37 @@ img {
 	        box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+li {
+  clear:both;
+  list-style:none;
+}
+
+h3 {
+	 border-bottom: 2px solid #333;
+	 padding: 20px 0;
+}
+
+button.delete {
+	background-color: #14968e;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #444;
+	border-color: #f9f9f9;
+	letter-spacing: 2px;
+	font-size: 0.4rem;
+	padding: 0.5rem;
+}
+
 .banner {
 	position: relative;
 }
@@ -689,11 +720,18 @@ img {
 	}
 
 .forms input[type='submit'],
+	
 	.forms input[type='text'],
+	
 	.forms input[type='password'] {
 		width: 100%;
 		display: block;
 		margin-top: 5px;
+		
+	}
+
+.forms input[type='button'] {
+		background-color: #14968e; 
 	}
 
 .site-footer {
